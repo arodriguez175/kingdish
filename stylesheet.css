@@ -7,22 +7,11 @@ html, body {
 }
 
 #home {
-    background: url('images/background_mobile.jpeg') no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/background.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-}
-
-@media only screen and (min-width: 768px) {
-    #home {
-        background: url('images/background_tablet.jpeg') no-repeat;
-        background-size: cover;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    #home {
-        background: url('images/background.jpeg') no-repeat;
-        background-size: cover;
-    }
+    position: relative;
 }
 
 /* Responsive Navbar----------------------------------------------------------------------------------------------------------- */
@@ -37,7 +26,6 @@ html, body {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    margin-right: 17px;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
