@@ -7,3 +7,6 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+
+// Auto-updating Copyright Year
+document.getElementById("footer").innerHTML="Copyright&copy; "+(new Date().getFullYear())+", KingDish. All Rights Reserved";
