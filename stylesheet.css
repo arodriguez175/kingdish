@@ -118,10 +118,8 @@ html, body {
     }
 
     #button-holder {
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 2%;
+        width: 100%;
+        
         position: absolute;
         bottom: 8%;
     }
@@ -144,10 +142,7 @@ html, body {
 /* Tablet */
 @media only screen and (min-width: 768px) {
     #button-holder {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 2%;
+    width: 100%;
     position: absolute;
     bottom: 8%;
     }
