@@ -118,8 +118,10 @@ html, body {
     }
 
     #button-holder {
-        text-align: center;
-        margin-top: 375px;
+        width: 100%;
+        
+        position: absolute;
+        bottom: 8%;
     }
     
     #button-holder a {
@@ -140,8 +142,9 @@ html, body {
 /* Tablet */
 @media only screen and (min-width: 768px) {
     #button-holder {
-        text-align: center;
-        margin-top: 315px;
+    width: 100%;
+    position: absolute;
+    bottom: 8%;
     }
     
     #button-holder a {
@@ -177,7 +180,8 @@ html, body {
     
     #button-holder {
         text-align: center;
-        margin-top: 100px;
+        position: absolute;
+        bottom: 30%;
     }
     
     #button-holder a {
@@ -227,7 +231,7 @@ html, body {
     text-align: center;
   }
     
-    #button-holder-home a {
+    #button-holder a {
     
         padding: 20px;
         display: inline-block;
@@ -237,11 +241,11 @@ html, body {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    #button-holder-home {
+    #button-holder {
     text-align: center;
   }
     
-    #button-holder-home a {
+    #button-holder a {
         padding: 20px;
         display: inline-block;
         width: 100%;
@@ -254,11 +258,11 @@ html, body {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    #button-holder-home {
+    #button-holder {
     text-align: center;
   }
     
-    #button-holder-home a {
+    #button-holder a {
         padding: 20px;
         display: inline-block;
         width: 100%;
@@ -267,11 +271,11 @@ html, body {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    #button-holder-home {
+    #button-holder {
     text-align: center;
   }
     
-    #button-holder-home a {
+    #button-holder a {
         padding: 20px;
         display: inline-block;
         width: 50%;
@@ -280,11 +284,11 @@ html, body {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    #button-holder-home {
+    #button-holder {
     text-align: center;
   }
     
-    #button-holder-home a{
+    #button-holder a{
         padding: 20px;
         display: inline-block;
         width: 30%;
