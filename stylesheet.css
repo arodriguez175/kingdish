@@ -118,10 +118,8 @@ html, body {
     }
 
     #button-holder {
-        width: 100%;
-        
-        position: absolute;
-        bottom: 8%;
+        text-align: center;
+        margin-top: 375px;
     }
     
     #button-holder a {
@@ -142,9 +140,8 @@ html, body {
 /* Tablet */
 @media only screen and (min-width: 768px) {
     #button-holder {
-    width: 100%;
-    position: absolute;
-    bottom: 8%;
+        text-align: center;
+        margin-top: 315px;
     }
     
     #button-holder a {
@@ -180,8 +177,7 @@ html, body {
     
     #button-holder {
         text-align: center;
-        position: absolute;
-        bottom: 30%;
+        margin-top: 100px;
     }
     
     #button-holder a {
