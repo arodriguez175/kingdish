@@ -116,6 +116,11 @@ html, body {
     [class*="col-"] {
         width: 100%;
     }
+    
+    #title {
+        font-size: 39pt;
+        font-family: 'Roboto', sans-serif;
+    }
 
     #button-holder {
         margin-left: 20%;
