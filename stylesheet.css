@@ -116,39 +116,7 @@ html, body {
     [class*="col-"] {
         width: 100%;
     }
-
-    
-    
 }
-
-/* Landscape */
-/*@media only screen and (orientation: landscape) { 
-    #title {
-    font-size: 39pt;
-    font-family: 'Roboto', sans-serif;
-}
-    
-    #button-holder {
-        margin-left: 20%;
-        margin-right: 20%;
-        position: relative;
-        top: -10%;
-    }
-    
-    #button-holder a {
-    text-align: center;
-    background-color: orangered;
-    text-decoration: none;
-    color: white;
-    padding: 25px;
-    display: inline-block;
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: 0px 5px 15px #363636;
-    font-family: 'Gothic A1', sans-serif;
-}
-}*/
-
 
 /* For desktop: */
 @media only screen and (min-width: 992px) {
@@ -196,7 +164,6 @@ html, body {
     text-align: center;
   }
     
-    /* Previous code */
     #title {
     font-size: 39pt;
     font-family: 'Roboto', sans-serif;
