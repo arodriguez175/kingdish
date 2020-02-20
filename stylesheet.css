@@ -169,24 +169,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
     
-    #button-holder {
-        margin-left: 20%;
-        margin-right: 20%;
-        margin-top: 20%;
-    }
     
-    #button-holder a {
-    text-align: center;
-    background-color: orangered;
-    text-decoration: none;
-    color: white;
-    padding: 25px;
-    display: inline-block;
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: 0px 5px 15px #363636;
-    font-family: 'Gothic A1', sans-serif;
-}
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -202,24 +185,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
     
-    #button-holder {
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 20%;
-}
     
-    #button-holder a {
-    text-align: center;
-    background-color: orangered;
-    text-decoration: none;
-    color: white;
-    padding: 25px;
-    display: inline-block;
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: 0px 5px 15px #363636;
-    font-family: 'Gothic A1', sans-serif;
-}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -228,24 +194,6 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
     
-    #button-holder {
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 20%;
-}
-    
-    #button-holder a {
-    text-align: center;
-    background-color: orangered;
-    text-decoration: none;
-    color: white;
-    padding: 25px;
-    display: inline-block;
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: 0px 5px 15px #363636;
-    font-family: 'Gothic A1', sans-serif;
-}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -254,27 +202,7 @@ html, body {
     font-size: 45pt;
     font-family: 'Roboto', sans-serif;
 }
-    
-    #button-holder {
-        text-align: center;
-    }
-    
-    #button-holder a {
-    text-align: center;
-    background-color: orangered;
-    text-decoration: none;
-    color: white;
-    padding: 25px;
-    display: inline-block;
-    width: 200px;
-    border-radius: 5px;
-    box-shadow: 0px 5px 15px #363636;
-    font-family: 'Gothic A1', sans-serif;
-}
 
-#button-holder a:hover {
-    background-color: red;
-}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -284,26 +212,6 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
     
-    #button-holder {
-        text-align: center;
-    }
-    
-    #button-holder a {
-    text-align: center;
-    background-color: orangered;
-    text-decoration: none;
-    color: white;
-    padding: 25px;
-    display: inline-block;
-    width: 200px;
-    border-radius: 5px;
-    box-shadow: 0px 5px 15px #363636;
-    font-family: 'Gothic A1', sans-serif;
-}
-
-#button-holder a:hover {
-    background-color: red;
-}
 }
 
 /* Content --------------------------------------------------------------------------------------------------------------*/
@@ -321,6 +229,23 @@ h1 {
 
 .background {
     background-color: #404040;
+}
+
+#button-holder a:hover {
+    background-color: red;
+}
+
+#button-holder a {
+    text-align: center;
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px #363636;
+    font-family: 'Gothic A1', sans-serif;
 }
 
 p {
@@ -344,33 +269,6 @@ h2 {
 
 #contact {
     text-align: center;
-}
-
-input {
-    width: 40%;
-    margin: 3px;
-    padding: 12px;
-}
-
-textarea {
-    width: 40%;
-    height: 200px;
-    margin: 3px;
-    padding: 12px;
-    resize: none;
-}
-
-input[type=submit] {
-    color: white;
-    padding: 20px;
-    background-color: orangered;
-    border-radius: 5px;
-    box-shadow: 0px 5px 15px #363636;
-    font-family: 'Gothic A1', sans-serif;
-}
-
-input[type=submit]:hover {
-    background-color: red;
 }
 
 
