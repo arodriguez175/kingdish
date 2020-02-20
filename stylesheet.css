@@ -216,13 +216,9 @@ html, body {
 
 /* Content --------------------------------------------------------------------------------------------------------------*/
 
-h1 {
+#title {
     text-align: center;
     color: white;
-    font-family: 'Roboto', sans-serif;
-}
-
-#title {
     font-size: 39pt;
     font-family: 'Roboto', sans-serif;
 }
@@ -233,6 +229,11 @@ h1 {
 
 #button-holder {
     text-align: center;
+}
+
+#title-and-button {
+    position: relative;
+    bottom: -20%
 }
 
 #button-holder a:hover {
