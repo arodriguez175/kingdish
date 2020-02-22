@@ -278,8 +278,15 @@ img {
 }
 
 h2 {
+    text-align: center;
     color: white;
-    margin: 0;
+    position: relative;
+    bottom: -20%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    color: white;
     font-family: 'Roboto', sans-serif;
 }
 
