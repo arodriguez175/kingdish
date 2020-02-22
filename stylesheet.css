@@ -283,11 +283,13 @@ h2 {
     position: relative;
     bottom: -20%;
     font-family: 'Roboto', sans-serif;
+    font-size: 28pt;
 }
 
 h3 {
     color: white;
     font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
 }
 
 #contact {
