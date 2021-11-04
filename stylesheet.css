@@ -43,6 +43,13 @@ html, body {
     display: none;
 }
 
+/* Github Link */
+i {
+    color: #fff;
+    font-size: 30px;
+    margin: 20px;
+}
+
 /* Media Queries ---------------------------------------------------------------------------------------------------------------*/
 /* When the screen is less than 650 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
